@@ -1,0 +1,93 @@
+<header id="header">
+    <img id="header-img" src="https://via.placeholder.com/150" alt="Product Logo">
+    <nav id="nav-bar">
+        <ul>
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        </ul>
+    </nav>
+</header>
+
+<nav id="nav-bar">
+    <ul>
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+    </ul>
+</nav>
+
+<iframe id="video" src="https://www.freecodecamp.com" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<form action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <input type="submit" id="submit" value="Subscribe">
+</form>
+
+<form action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <input type="submit" id="submit" value="Subscribe">
+</form>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header id="header">
+        <!-- Logo Image -->
+        <img id="header-img" src="https://via.placeholder.com/150" alt="Product Logo">
+        
+        <!-- Navigation Bar -->
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>idkidk</h2>
+        <p>uhhhh</p>
+        <!-- Embedded Product Video -->
+        <iframe id="video" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h2>Our Features</h2>
+        <p>Check out the amazing features of our product!</p>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <p>Choose the best plan for you.</p>
+    </section>
+
+    <!-- Email Subscription Form -->
+    <section id="form">
+        <h2>yayyyyy!!</h2>
+        <!-- Form with the correct action URL -->
+        <form action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <input type="submit" id="submit" value="Subscribe">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Your Product. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
